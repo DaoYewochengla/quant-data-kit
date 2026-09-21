@@ -1,0 +1,23 @@
+# 数据目录（本地数据不入库）
+data/
+*.csv
+!tests/**/*.csv
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+.pytest_cache/
+
+# 编辑器
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# 临时文件
+*.tmp
